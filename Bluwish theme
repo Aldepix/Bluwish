@@ -1,104 +1,54 @@
-/**
- * @name surCord
- * @author Vozer
- * @version 04.2023
- * @description A Discord theme inspired by Human Design.
- * @source https://github.com/SlippingGitty/surCord/
- * @website https://slippinggitty.github.io/
-*/
+<custom-style>
+  <style>
 
-/*
-                    'c.          discord@DiscordTheme.local 
-                 ,xNMM.          ----------------------- 
-               .OMMMMo           OS: surCord 09.22 css 
-               OMMM0,            Host: DiscordCanary0,1 
-     .;loddo:' loolloddol;.      Kernel: 0.0.285
-   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 09 hours, 15 mins 
- .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 4800 (plugins) 
- XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: Powercord, BetterDiscord, BeautifulDiscord,
-;MMMMMMMMMMMMMMMMMMMMMMMM:              Goosemod, Stylus 
-:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: ImagineAPlace
-.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: Vozer
- kMMMMMMMMMMMMMMMMMMMMMMMMWd.    WM Theme: Blurple
- .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   Font: San Fransisco Display
-  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   Memory: #7673MiB / 8192MiB 
-    kMMMMMMMMMMMMMMMMMMMMMMd      
-     ;KMMMMMMMWXXWMMMMMMMk.       
-       .cooc,.    .,coo:.       
-*/
-
-/*
-----------Accents---------
-> Only one Accent can be uncommented at a time.
-> Feel free to contribute https://github.com/SlippingGittys-Discord-Themes/surCord/tree/main/src/fixations/additions/ Accents
-*/
-
-/*  @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/blue.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/red.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/yellow.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/pink.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/materialblue.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/hatsune.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/nord.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/dracula.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/fuoco.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/tokyo.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/dark.css'); */
- @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/apple.css');
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/cyber.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/pluto.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/accents/joker.css'); */
-
-/*
-----------Palettes---------
-> Only one Palette can be uncommenteed at a time.
-> Feel free to contribute https://github.com/SlippingGittys-Discord-Themes/surCord/tree/main/src/fixations/additions/themes
-*/
-
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/default.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/amoled.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/amoledc.css'); */
- @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/materialdark.css');
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/nordtheme.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/dracula.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/fuoco.css'); */
-/* @import url('https://slippinggittys-discord-Themes.github.io/surCord/src/fixations/additions/themes/tokyonight.css'); */
-
-/*
------------Source---------
-> This is the core of the entire theme
-> It is essential that you do not touch this url, unless you know what you are doing.
-*/
-@import url('https://slippinggittys-discord-Themes.github.io/surCord/src/source.css');
-/*
-/*
------------Font---------
-> Uncomment the font-weight to enable San Fransisco Bold
-> Designed by Apple in California - https://developer.apple.com/fonts/ 
-*/
-
-/* Uncomment the line below to use Apple's Emoji font */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css); 
-
-@import url("https://Cinnab0nBak3ry.github.io/AppleFontsCSS/Apple-fonts.css");
-
-code, .codeBlockText-28BOxV, .codeLine-2C-9aH, .markup-eYLPri code.inline, .after_inlineCode-2_JXPm, .before_inlineCode-1zngJj, .inlineCode-ERyvy_ {
-  font-family: "SF Mono",mono,monospace;
+html {
+  --lumo-border-radius: 0.5em;
+  --lumo-tint-5pct: rgba(251, 249, 249, 0.05);
+  --lumo-tint-10pct: rgba(251, 249, 249, 0.1);
+  --lumo-tint-20pct: rgba(251, 249, 249, 0.2);
+  --lumo-tint-30pct: rgba(251, 249, 249, 0.3);
+  --lumo-tint-40pct: rgba(251, 249, 249, 0.4);
+  --lumo-tint-50pct: rgba(251, 249, 249, 0.5);
+  --lumo-tint-60pct: rgba(251, 249, 249, 0.6);
+  --lumo-tint-70pct: rgba(251, 249, 249, 0.7);
+  --lumo-tint-80pct: rgba(251, 249, 249, 0.8);
+  --lumo-tint-90pct: rgba(251, 249, 249, 0.9);
+  --lumo-shade-5pct: rgba(242, 242, 242, 0.05);
+  --lumo-shade-10pct: rgba(242, 242, 242, 0.1);
+  --lumo-shade-20pct: rgba(242, 242, 242, 0.2);
+  --lumo-shade-30pct: rgba(242, 242, 242, 0.3);
+  --lumo-shade-40pct: rgba(242, 242, 242, 0.4);
+  --lumo-shade-50pct: rgba(242, 242, 242, 0.5);
+  --lumo-shade-60pct: rgba(242, 242, 242, 0.6);
+  --lumo-shade-70pct: rgba(242, 242, 242, 0.7);
+  --lumo-shade-80pct: rgba(242, 242, 242, 0.8);
+  --lumo-shade-90pct: rgba(242, 242, 242, 0.9);
+  --lumo-primary-text-color: rgb(0, 170, 255);
+  --lumo-primary-color-50pct: rgba(0, 170, 255, 0.5);
+  --lumo-primary-color-10pct: rgba(0, 170, 255, 0.1);
+  --lumo-error-text-color: rgb(255, 90, 82);
+  --lumo-error-color-50pct: rgba(255, 90, 82, 0.5);
+  --lumo-error-color-10pct: rgba(255, 90, 82, 0.1);
+  --lumo-base-color: #2e2e2e;
+  --lumo-tint: #fbf9f9;
+  --lumo-shade: hsl(214, 0%, 95%);
+  --lumo-primary-color: hsl(200, 100%, 50%);
+  --lumo-primary-contrast-color: #fcfcfc;
+  --lumo-error-color: hsl(3, 100%, 66%);
+  --lumo-error-contrast-color: #fcfcfc;
 }
 
-* {
-  --font-primary: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
-  --font-display: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
-  --font-headline: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
-  text-rendering: optimizeLegibility;
-  text-transform: none !important;
-  letter-spacing: 0.015em;
-
-  /* font-weight: bold !important; */
+[theme~="dark"] {
+  --lumo-base-color: hsl(214, 1%, 19%);
 }
 
-/* 
-/////////////////////////////////////////
-//ADD YOUR OWN ADDITIONS BELLOW THIS LINE
-/////////////////////////////////////////
-*/
+  </style>
+</custom-style>
+
+
+<dom-module id="text-field-style" theme-for="vaadin-text-field">
+  <template>
+    <style>[part="input-field"]{box-shadow:inset 0 0 0 1px var(--lumo-contrast-30pct);background-color:var(--lumo-base-color);}:host([invalid]) [part="input-field"]{box-shadow:inset 0 0 0 1px var(--lumo-error-color);}
+    </style>
+  </template>
+</dom-module>
